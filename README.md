@@ -140,16 +140,12 @@ void YY_RTC_Init(void) {
 SmartEnvClock/
 ├── Docs/                    # 项目文档
 ├── Firmware/               # 嵌入式固件
-│   ├── STM32/              # STM32端代码
 │   │   ├── Core/           # 核心驱动
 │   │   ├── Drivers/        # 硬件驱动
 │   │   └── Projects/       # 项目文件
 │   └── ESP32/              # ESP32端代码
 ├── Hardware/               # 硬件设计文件
-│   ├── Schematic/          # 原理图
-│   ├── PCB/               # PCB设计
 │   └── 3D_Models/         # 3D外壳模型
-├── Tools/                  # 开发工具
 └── README.md               # 项目说明
 ```
 
@@ -166,12 +162,12 @@ SmartEnvClock/
 ### 软件编译
 1. 克隆仓库
 ```bash
-git clone https://github.com/yourname/SmartEnvClock.git
+git clone https://github.com/LiO2-coder/Smart-home-environment-monitoring-clock.git
 ```
 
 2. 使用Keil打开项目
 ```bash
-打开 Firmware/STM32/Projects/Project.uvprojx
+打开 /Projects/SAC.uvprojx
 ```
 
 3. 配置ESP32开发环境
@@ -219,9 +215,9 @@ idf.py build
 
 ## 联系我们
 
-- 项目主页：https://github.com/yourname/SmartEnvClock
-- 问题反馈：https://github.com/yourname/SmartEnvClock/issues
-- 邮箱：yourname@example.com
+- 项目主页：https://github.com/LiO2-coder/Smart-home-environment-monitoring-clock
+- 问题反馈：https://github.com/LiO2-coder/Smart-home-environment-monitoring-clock/issues
+- 邮箱：2099602919@qq.com.com
 
 ## 致谢
 
@@ -229,5 +225,5 @@ idf.py build
 
 ---
 
-*最后更新：2025年1月*  
+*最后更新：2026年1月5日*  
 *版本号：v1.0.0*
